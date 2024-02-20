@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class Invoice(models.Model):
     date = models.DateField()
     customer_name = models.CharField(max_length=100)
